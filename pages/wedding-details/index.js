@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Footer from "../../components/footer/Footer";
 import Navbar2 from "../../components/Navbar";
 import PageTitle from "../../components/pagetitle";
-import PartnerSection from "../../components/PartnerSection/PartnerSection";
+
 import Sidebar from "./sidebar";
 import Scrollbar from "../../components/scrollbar";
 import wImg from "/public/images/wedding/wedding.jpg";

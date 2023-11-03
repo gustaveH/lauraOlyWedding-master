@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import Navbar2 from "../../components/Navbar";
 import PageTitle from "../../components/pagetitle";
-import PortfolioSection3 from "../../components/PortfolioSection3/PortfolioSection3";
 import Scrollbar from "../../components/scrollbar";
 import Footer from "../../components/footer/Footer";
 

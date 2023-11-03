@@ -4,9 +4,8 @@ import Navbar2 from "../../components/Navbar";
 import PageTitle from "../../components/pagetitle";
 import CoupleSection from "../../components/CoupleSection/CoupleSection";
 import WeddingTime from "../../components/weddingTime/WeddingTime";
-import StorySection2 from "../../components/StorySection2/StorySection2";
-import PortfolioSection2 from "../../components/PortfolioSection2/PortfolioSection2";
-import PartnerSection from "../../components/PartnerSection/PartnerSection";
+import StorySection2 from "../../components/StorySection/StorySection";
+
 import Scrollbar from "../../components/scrollbar";
 
 const AboutPage = () => {
@@ -17,8 +16,6 @@ const AboutPage = () => {
       <CoupleSection cClass={"couple-section-s2"} />
       <WeddingTime />
       <StorySection2 />
-      <PortfolioSection2 gClass={"pt-0"} />
-      <PartnerSection pClass={"section-padding pt-0"} />
       <Footer />
       <Scrollbar />
     </Fragment>
