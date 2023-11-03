@@ -16,7 +16,6 @@ const AccomodationPage = () => {
       <WeddingTime wdClass={"section-padding"} />
       <CoupleSection cClass={"couple-section-s2"} />
       <EventSection />
-      <PartnerSection pClass={"section-padding pt-0"} />
       <Footer />
       <Scrollbar />
     </Fragment>

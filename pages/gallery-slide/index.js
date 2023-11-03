@@ -9,7 +9,6 @@ const GallerySlide = () => {
     <Fragment>
       <Navbar2 />
       <PageTitle pageTitle={"Gallery"} pagesub={"Gallery"} />
-      <PortfolioSection3 />
       <Footer />
       <Scrollbar />
     </Fragment>
