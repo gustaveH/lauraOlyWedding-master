@@ -1,9 +1,6 @@
 import React from 'react'
 import TimeCountDown from '../countdown'
-import hImg1 from '/public/images/slider/oluUzaOriginal.JPG'
-import shape1 from '/public/images/slider/shape.svg'
-import shape2 from '/public/images/slider/flower1.png'
-import shape3 from '/public/images/slider/flower2.png'
+import hImg1 from '/public/images/slider/oluUzaOriginal.png'
 import Image from 'next/image'
 
 
@@ -20,7 +17,7 @@ const Hero = (props) => {
                                         <h2>Olivier <span>&</span> Laura</h2>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <p>We Are Getting Married</p>
+                                        <p>We Are Getting Married!</p>
                                     </div>
                                     <div className="wpo-wedding-date">
                                         <div className="clock-grids">
