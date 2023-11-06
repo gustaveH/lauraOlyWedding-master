@@ -29,7 +29,7 @@ export const RSVP = (props) => {
                 email: '',
                 attend: '',
             });
-        } else {
+        } else {ƒ
             validator.showMessages();
         }
     };
@@ -51,18 +51,18 @@ export const RSVP = (props) => {
                                     onChange={(e) => changeHandler(e)}
                                     className="form-control"
                                     placeholder="Your Name" />
-                                {validator.message('name', forms.name, 'required|alpha_space')}
+                                {validator.message('name', state.name, 'required|alpha_space')}
                             </div>
                             <div className="form-field">
                                 <input
-                                    value={forms.email}
+                                    value={state.email}
                                     type="email"
                                     name="email"
                                     onBlur={(e) => changeHandler(e)}
                                     onChange={(e) => changeHandler(e)}
                                     className="form-control"
                                     placeholder="Your Email" />
-                                {validator.message('email', forms.email, 'required|email')}
+                                {validator.message('email', state.email, 'required|email')}
                             </div>
                             <div className="radio-buttons">
                                 <p>
