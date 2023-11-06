@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
-import { useForm, ValidationError } from "@formspree/react";
+import SimpleReactValidator from 'simple-react-validator';
 import SectionTitle from '../../components/SectionTitle';
 
 export const RSVP = (props) => {
 
-    // const [forms, setForms] = useState({
-    const [state, handleSubmit] = useState({
+    const [forms, setForms] = useState({
         name: '',
         email: '',
         attend: '',
     });
-    const [validator] = useForm("xrgroppr");
+    const [validator] = useState(new SimpleReactValidator({
+        className: 'errorMessage'
+    }));
     const changeHandler = e => {
-        handleSubmit({ ...state, [e.target.name]: e.target.value });
+        setForms({ ...forms, [e.target.name]: e.target.value });
         if (validator.allValid()) {
             validator.hideMessages();
         } else {
@@ -24,12 +25,12 @@ export const RSVP = (props) => {
         e.preventDefault();
         if (validator.allValid()) {
             validator.hideMessages();
-            handleSubmit({
+            setForms({
                 name: '',
                 email: '',
                 attend: '',
             });
-        } else {ƒ
+        } else {
             validator.showMessages();
         }
     };
@@ -41,7 +42,7 @@ export const RSVP = (props) => {
                     <div className="wpo-contact-form-area">
                         <SectionTitle MainTitle={'Are you attending?'} />
 
-                        <form onSubmit={(e) => handleSubmit(e)} className="contact-validation-active">
+                        <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active">
                             <div className="form-field">
                                 <input
                                     value={forms.name}
@@ -51,18 +52,18 @@ export const RSVP = (props) => {
                                     onChange={(e) => changeHandler(e)}
                                     className="form-control"
                                     placeholder="Your Name" />
-                                {validator.message('name', state.name, 'required|alpha_space')}
+                                {validator.message('name', forms.name, 'required|alpha_space')}
                             </div>
                             <div className="form-field">
                                 <input
-                                    value={state.email}
+                                    value={forms.email}
                                     type="email"
                                     name="email"
                                     onBlur={(e) => changeHandler(e)}
                                     onChange={(e) => changeHandler(e)}
                                     className="form-control"
                                     placeholder="Your Email" />
-                                {validator.message('email', state.email, 'required|email')}
+                                {validator.message('email', forms.email, 'required|email')}
                             </div>
                             <div className="radio-buttons">
                                 <p>
