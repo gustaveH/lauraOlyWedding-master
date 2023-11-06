@@ -42,7 +42,7 @@ export const RSVP = (props) => {
                     <div className="wpo-contact-form-area">
                         <SectionTitle MainTitle={'Are you attending?'} />
 
-                        <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active" method="POST" data-netlify="true">
+                        <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active" name="contact" method="POST" data-netlify="true">
                             <div className="form-field">
                                 <input
                                     value={forms.name}
