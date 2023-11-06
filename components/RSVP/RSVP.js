@@ -1,19 +1,18 @@
 import React, { useState } from 'react';
-import SimpleReactValidator from 'simple-react-validator';
+import { useForm, ValidationError } from "@formspree/react";
 import SectionTitle from '../../components/SectionTitle';
 
 export const RSVP = (props) => {
 
-    const [forms, setForms] = useState({
+    // const [forms, setForms] = useState({
+    const [state, handleSubmit] = useState({
         name: '',
         email: '',
         attend: '',
     });
-    const [validator] = useState(new SimpleReactValidator({
-        className: 'errorMessage'
-    }));
+    const [validator] = useForm("xrgroppr");
     const changeHandler = e => {
-        setForms({ ...forms, [e.target.name]: e.target.value });
+        handleSubmit({ ...state, [e.target.name]: e.target.value });
         if (validator.allValid()) {
             validator.hideMessages();
         } else {
@@ -25,7 +24,7 @@ export const RSVP = (props) => {
         e.preventDefault();
         if (validator.allValid()) {
             validator.hideMessages();
-            setForms({
+            handleSubmit({
                 name: '',
                 email: '',
                 attend: '',
@@ -42,7 +41,7 @@ export const RSVP = (props) => {
                     <div className="wpo-contact-form-area">
                         <SectionTitle MainTitle={'Are you attending?'} />
 
-                        <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active">
+                        <form onSubmit={(e) => handleSubmit(e)} className="contact-validation-active">
                             <div className="form-field">
                                 <input
                                     value={forms.name}
