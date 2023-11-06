@@ -11,7 +11,7 @@ const RSVPPage = () => {
     <Fragment>
       <Navbar2 />
       <PageTitle pageTitle={"RSVP"} pagesub={"RSVP"} />
-      <RSVP pt={"section-padding pt-200"} />
+      <RSVP pt={"section-padding pt-200"} name="contactForm" method="POST" data-netlify="true"/>
       <EventSection />
       <Footer />
       <Scrollbar />
