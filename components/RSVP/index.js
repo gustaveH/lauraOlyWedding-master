@@ -7,7 +7,7 @@ const RSVP = (props) => {
         const [state, handleSubmit] = useForm("mwkdznbj");
       
         if (state.succeeded) {
-          return <p>Thanks for your submission!</p>;
+          return <h1> Thank you! </h1>;
         }
 
     return (
@@ -25,26 +25,34 @@ const RSVP = (props) => {
                                     name="name"
                                     className="form-control"
                                     placeholder="Your Name" />
+                                <ValidationError prefix="Name" field="name" errors={state.errors} />
+                            </div>
+                            <div className="form-field">
+                                <input
+                                    id="email"
+                                    type="text"
+                                    name="email"
+                                    className="form-control"
+                                    placeholder="Your Email" />
                                 <ValidationError prefix="Email" field="email" errors={state.errors} />
                             </div>
                             <div className="form-field">
                                 <input
-                                    id="name"
+                                    id="yes"
                                     type="text"
-                                    name="name"
+                                    name="yes"
                                     className="form-control"
-                                    placeholder="Your Name" />
-                                <ValidationError prefix="Email" field="email" errors={state.errors} />
+                                    placeholder="Your response" />
+                                <ValidationError prefix="Yes" field="yes" errors={state.errors} />
                             </div>
-                            <div className="radio-buttons">
-                                <p>
-                                    <input type="radio" id="attend" name="radio-group" defaultChecked />
-                                    <label htmlFor="attend">Yes, I will be there</label>
-                                </p>
-                                <p>
-                                    <input type="radio" id="not" name="radio-group" />
-                                    <label htmlFor="not">Sorry, I can't come</label>
-                                </p>
+                            <div className="form-field">
+                                <input
+                                    id="no"
+                                    type="text"
+                                    name="no"
+                                    className="form-control"
+                                    placeholder="Your response" />
+                                <ValidationError prefix="Yes" field="yes" errors={state.errors} />
                             </div>
                             <div className="submit-area">
                                 <button type="submit" className="theme-btn">Submit Now</button>
