@@ -7,7 +7,16 @@ const RSVP = (props) => {
         const [state, handleSubmit] = useForm("mwkdznbj");
       
         if (state.succeeded) {
-          return <h1> Thank you! </h1>;
+          return (
+            <div>
+                <h1> Thank you! </h1>
+                <style jsx global>{`
+        p {
+          text-align: center;
+        }
+      `}</style>
+            </div>
+          );
         }
 
     return (
