@@ -6683,6 +6683,10 @@ img {
   }
 }
 
+.thankYou{
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .wpo-contact-section-s2 .wpo-rsvp-wrap .right-img {
     display: none;
