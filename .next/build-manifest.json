@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/s_7EZNun3t0MMbpNiK01J/_buildManifest.js",
-    "static/s_7EZNun3t0MMbpNiK01J/_ssgManifest.js"
+    "static/VOHJcB2WXJexKMcYNe-6y/_buildManifest.js",
+    "static/VOHJcB2WXJexKMcYNe-6y/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -20,10 +20,10 @@
       "static/chunks/675-d3ebc23ed35e922d.js",
       "static/chunks/950-b7fea527fda6d237.js",
       "static/chunks/509-b2808593f5cf0fc8.js",
+      "static/chunks/556-02f80181adf91af6.js",
       "static/chunks/106-21f2cd1a458753b8.js",
-      "static/chunks/550-0b1a8d1e4d1946df.js",
-      "static/chunks/672-5cb866d7816276ff.js",
-      "static/chunks/pages/index-e601efca06f3ce6c.js"
+      "static/chunks/230-32c6e747c4e83313.js",
+      "static/chunks/pages/index-5bfc546812020bc1.js"
     ],
     "/404": [
       "static/chunks/webpack-6af0e3c12b874bb0.js",
@@ -55,7 +55,7 @@
       "static/chunks/917-09a23d1dd8c4e6df.js",
       "static/chunks/675-d3ebc23ed35e922d.js",
       "static/chunks/106-21f2cd1a458753b8.js",
-      "static/chunks/pages/about-43836d4916c8ccbb.js"
+      "static/chunks/pages/about-8244126145460ba1.js"
     ],
     "/accomodation": [
       "static/chunks/webpack-6af0e3c12b874bb0.js",
@@ -128,10 +128,10 @@
       "static/chunks/675-d3ebc23ed35e922d.js",
       "static/chunks/950-b7fea527fda6d237.js",
       "static/chunks/509-b2808593f5cf0fc8.js",
+      "static/chunks/556-02f80181adf91af6.js",
       "static/chunks/106-21f2cd1a458753b8.js",
-      "static/chunks/550-0b1a8d1e4d1946df.js",
-      "static/chunks/672-5cb866d7816276ff.js",
-      "static/chunks/pages/home-c87b84839be4a896.js"
+      "static/chunks/230-32c6e747c4e83313.js",
+      "static/chunks/pages/home-35d13b1612dafe5e.js"
     ],
     "/invitation": [
       "static/chunks/webpack-6af0e3c12b874bb0.js",
@@ -169,11 +169,10 @@
       "static/chunks/664-0356555cfd50fb3d.js",
       "static/chunks/0-65c3caeb2886a5c7.js",
       "static/chunks/917-09a23d1dd8c4e6df.js",
-      "static/chunks/675-d3ebc23ed35e922d.js",
       "static/chunks/950-b7fea527fda6d237.js",
       "static/chunks/509-b2808593f5cf0fc8.js",
-      "static/chunks/550-0b1a8d1e4d1946df.js",
-      "static/chunks/pages/rsvp-c0eac04045324b4f.js"
+      "static/chunks/556-02f80181adf91af6.js",
+      "static/chunks/pages/rsvp-5accf2ecda0333bd.js"
     ],
     "/story": [
       "static/chunks/webpack-6af0e3c12b874bb0.js",
@@ -183,7 +182,7 @@
       "static/chunks/0-65c3caeb2886a5c7.js",
       "static/chunks/917-09a23d1dd8c4e6df.js",
       "static/chunks/675-d3ebc23ed35e922d.js",
-      "static/chunks/pages/story-3264ed97841043b0.js"
+      "static/chunks/pages/story-d16e1a3563ef5931.js"
     ],
     "/wedding": [
       "static/chunks/webpack-6af0e3c12b874bb0.js",
