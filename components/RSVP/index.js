@@ -8,13 +8,8 @@ const RSVP = (props) => {
       
         if (state.succeeded) {
           return (
-            <div>
-                <h1> Thank you! </h1>
-                <style jsx global>{`
-        p {
-          text-align: center;
-        }
-      `}</style>
+            <div className='container'>
+                <h1 className='thankYou'> Thank you! </h1>
             </div>
           );
         }
