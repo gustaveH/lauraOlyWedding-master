@@ -1,4 +1,5 @@
 import { useForm, ValidationError } from '@formspree/react';
+import Error from '../404';
 import SectionTitle from '../../components/SectionTitle'
 
 
@@ -9,7 +10,7 @@ const RSVP = (props) => {
         if (state.succeeded) {
           return (
             <div className='container'>
-                <h1 className='thankYou'> Thank you! </h1>
+                <Error/>
             </div>
           );
         }
