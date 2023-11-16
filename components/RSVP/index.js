@@ -61,7 +61,7 @@ const RSVP = (props) => {
                                 <ValidationError prefix="Yes" field="yes" errors={state.errors} />
                             </div>
                             <div className="submit-area">
-                                <button type="submit" className="theme-btn">Submit Now</button>
+                                <button type="submit" className="theme-btn">Submit</button>
                             </div>
                         </form >
                     </div>
