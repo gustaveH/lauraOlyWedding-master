@@ -42,23 +42,23 @@ const RSVP = (props) => {
                                 <ValidationError prefix="Email" field="email" errors={state.errors} />
                             </div>
                             <div className="form-field">
-                                <p>I will make it</p>
+                                <p>Will you be attending?</p>
                                 <input
                                     id="yes"
                                     type="text"
                                     name="yes"
                                     className="form-control"
-                                    placeholder="Yes" />
+                                    placeholder="Yes/No" />
                                 <ValidationError prefix="Your response" field="yes" errors={state.errors} />
                             </div>
                             <div className="form-field">
-                                <p>I won't make make it</p>
+                                <p>Please list names of the party attending.</p>
                                 <input
                                     id="no"
                                     type="text"
                                     name="no"
                                     className="form-control"
-                                    placeholder="No" />
+                                    placeholder="John Doe, Jane Doe" />
                                 <ValidationError prefix="Your response" field="yes" errors={state.errors} />
                             </div>
                             <div className="submit-area">
