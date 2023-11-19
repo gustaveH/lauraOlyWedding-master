@@ -5388,24 +5388,6 @@ img {
   background: #D66371;
 }
 
-.story-section .story-timeline .line-shape .outer-ball {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #D66371;
-  border-radius: 50%;
-  position: relative;
-}
-
-.story-section .story-timeline .line-shape .outer-ball .inner-ball {
-  position: absolute;
-  left: 5px;
-  top: 5px;
-  width: 8px;
-  height: 8px;
-  background: #D66371;
-  border-radius: 50%;
-}
-
 .story-section .story-timeline .line-shape.s2 {
   text-align: right;
 }
@@ -6681,10 +6663,6 @@ img {
   .wpo-contact-section-s2 .wpo-rsvp-wrap .right-img {
     right: -7%;
   }
-}
-
-.thankYou{
-  text-align: center;
 }
 
 @media (max-width: 991px) {

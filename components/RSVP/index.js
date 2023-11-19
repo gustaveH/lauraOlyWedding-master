@@ -49,7 +49,7 @@ const RSVP = (props) => {
                                     name="yes"
                                     className="form-control"
                                     placeholder="Yes" />
-                                <ValidationError prefix="Yes" field="yes" errors={state.errors} />
+                                <ValidationError prefix="Your response" field="yes" errors={state.errors} />
                             </div>
                             <div className="form-field">
                                 <p>I won't make make it</p>
@@ -59,7 +59,7 @@ const RSVP = (props) => {
                                     name="no"
                                     className="form-control"
                                     placeholder="No" />
-                                <ValidationError prefix="Yes" field="yes" errors={state.errors} />
+                                <ValidationError prefix="Your response" field="yes" errors={state.errors} />
                             </div>
                             <div className="submit-area">
                                 <button type="submit" className="theme-btn">Submit</button>
