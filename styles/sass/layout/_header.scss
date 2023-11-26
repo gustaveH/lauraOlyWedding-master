@@ -190,7 +190,7 @@
 		.logo {
 			font-size: 45px;
 			font-family: $heading-font;
-			color: $theme-primary-color;
+			color: $theme-primary-color-s2;
 			margin-right: 0;
 			padding-top: 0;
 			position: relative;
@@ -206,7 +206,7 @@
 			}
 
 			small {
-				color: $dark-gray;
+				color: $theme-primary-color-s2;
 			}
 
 			span {
@@ -808,7 +808,7 @@
 				font-size: 16px;
 				padding: 35px 20px;
 				display: block;
-				color: $dark-gray;
+				color: $theme-primary-color-s2;
 				font-weight: 500;
 				position: relative;
 				font-family: $base-font;
@@ -853,7 +853,7 @@
 					width: 0px;
 					height: 1px;
 					content: "";
-					background: $theme-primary-color;
+					background: $theme-primary-color-s3;
 					transition: all .3s;
 					opacity: 0;
 					visibility: hidden;

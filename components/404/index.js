@@ -4,7 +4,7 @@ import Link from 'next/link'
 import erimg from '/public/images/error-404.svg'
 
 
-const Error = (props) => {
+const ThankYouRSVP = (props) => {
     return(
         <section className="error-404-section section-padding">
             <div className="container">
@@ -26,4 +26,4 @@ const Error = (props) => {
     )
 }
 
-export default Error;
+export default ThankYouRSVP;
