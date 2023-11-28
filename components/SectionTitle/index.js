@@ -5,7 +5,7 @@ const SectionTitle = (props) => {
     return(
         <div className="wpo-section-title">
             <div className="section-title-icon">
-                <i className="fi flaticon-dove"></i>
+                <i className="fi flaticon-heart"></i>
             </div>
             <h2>{props.MainTitle}</h2>
         </div>
