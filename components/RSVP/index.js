@@ -44,9 +44,9 @@ const RSVP = (props) => {
                             <div className="form-field">
                                 <p>Will you be attending?</p>
                                 <input
-                                    id="yes"
+                                    id="Yes/No"
                                     type="text"
-                                    name="yes"
+                                    name="Yes/No"
                                     className="form-control"
                                     placeholder="Yes/No" />
                                 <ValidationError prefix="Your response" field="yes" errors={state.errors} />
