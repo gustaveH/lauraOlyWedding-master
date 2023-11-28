@@ -505,8 +505,9 @@
 		font-size: 25px;
 		line-height: 36px;
 		color: $white;
+		align-items: center;
 		margin: 0;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 
 		@include media-query(1400px) {
 			max-width: 600px;
