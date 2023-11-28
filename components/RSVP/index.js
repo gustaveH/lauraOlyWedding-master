@@ -44,12 +44,12 @@ const RSVP = (props) => {
                             <div className="form-field">
                                 <p>Will you be attending?</p>
                                 <input
-                                    id="Yes/No"
+                                    id="Response"
                                     type="text"
-                                    name="Yes/No"
+                                    name="Response"
                                     className="form-control"
                                     placeholder="Yes/No" />
-                                <ValidationError prefix="Your response" field="yes" errors={state.errors} />
+                                <ValidationError prefix="Your response" field="Yes/No" errors={state.errors} />
                             </div>
                             <div className="form-field">
                                 <p>Please list names of the party attending.</p>
@@ -59,7 +59,7 @@ const RSVP = (props) => {
                                     name="Attendies"
                                     className="form-control"
                                     placeholder="John Doe, Jane Doe" />
-                                <ValidationError prefix="Your response" field="yes" errors={state.errors} />
+                                <ValidationError prefix="Your response" field="Guests" errors={state.errors} />
                             </div>
                             <div className="submit-area">
                                 <button type="submit" className="theme-btn">Submit</button>
