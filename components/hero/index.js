@@ -25,7 +25,7 @@ const Hero = (props) => {
                                             <h3 className ="weddingDate">07-06-2024</h3>
                                         </div>
                                     </div>
-                                    <div className="clearfix"></div>
+                                    {/* <div className="clearfix"></div> */}
                                 </div>
                             </div>
                         </div>
