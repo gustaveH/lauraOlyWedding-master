@@ -529,13 +529,15 @@
 	// wpo-wedding-date
 	.SaveDate{
 		color: $body-bg-color;
+		padding-top: 30px;
 	}
 	.weddingDate{
 		color: $theme-primary-color-s2;
 		font-size: 45px;
+		padding-bottom: ;
 	}
 	.Gusaba{
-		padding-top: 10px;
+		padding-top: 30px;
 		color: $body-bg-color;
 	}
 
@@ -745,7 +747,7 @@
 			width: 320px;
 			height: 400px;
 			left: 42%;
-			bottom: 50px;
+			bottom: 70px;
 		}
 
 		@include media-query(420px) {
