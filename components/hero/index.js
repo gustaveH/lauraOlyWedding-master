@@ -17,7 +17,7 @@ const Hero = (props) => {
                                         <h2>Olivier <span>&</span> Laura</h2>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <h1 className='Gusaba'>The Parents of Laura Uzamukunda & Olivier Nsengiyumva would love your presence to our Traditional Rwandan Wedding: Gusba na Gukwa</h1>
+                                        <h1 className='Gusaba'>The Parents of Laura Uzamukunda & Olivier Nsengiyumva would love your presence to our Traditional Rwandan Wedding: Gusaba na Gukwa</h1>
                                     </div>
                                     <div className="wpo-wedding-date">
                                         <div className="clock-grids">
