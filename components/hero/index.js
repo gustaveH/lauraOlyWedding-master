@@ -23,6 +23,7 @@ const Hero = (props) => {
                                         <div className="clock-grids">
                                             <h1 className='SaveDate'>Save the Date</h1>
                                             <h3 className ="weddingDate">07-06-2024</h3>
+                                            <h3 className="gusaba-location">Kigali, Rwanda </h3>
                                             <h6 className='RSVPby'>Please RSVP by 03-29-2024</h6>
                                         </div>
                                     </div>
