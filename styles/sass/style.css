@@ -4650,13 +4650,13 @@ img {
 
 .wpo-site-footer .wpo-lower-footer .copyright {
   display: inline-block;
-  font-size: 18px;
+  font-size: 8px;
   margin: 0;
-  color: #D66371;
+  color: #DAA520;
 }
 
 .wpo-site-footer .wpo-lower-footer .copyright a {
-  color: #D66371;
+  color: #DAA520;
   text-decoration: none;
 }
 
