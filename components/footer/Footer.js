@@ -19,8 +19,8 @@ const Footer = (props) =>{
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">
-                        <p className="copyright fi flaticon-dove"> &copy; <Link onClick={ClickHandler}
-                                href="https://www.gustavehabimana.com">By Gustave</Link></p>
+                        <p className="copyright fi flaticon-heart"> &copy; <Link onClick={ClickHandler}
+                                href="https://www.gustavehabimana.com" target="_blank">By Gustave</Link></p>
                     </div>
                 </div>
             </div>

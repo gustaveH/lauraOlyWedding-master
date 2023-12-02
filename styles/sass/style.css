@@ -1385,7 +1385,7 @@ img {
     z-index: 101;
   }
   .wpo-site-header #navbar ul a {
-    color: #000;
+    color: #DC143C;
   }
   .wpo-site-header #navbar ul a:hover,
   .wpo-site-header #navbar ul li.current a {
