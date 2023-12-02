@@ -17,15 +17,15 @@ const Hero = (props) => {
                                         <h2>Olivier <span>&</span> Laura</h2>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <h1 className='Gusaba'>We would love your presence to our Traditional Wedding: Gusaba and Gukwa</h1>
+                                        <h1 className='Gusaba'>The Parents of Laura Uzamukunda & Olivier Nsengiyumva would love your presence to our Traditional Rwandan Wedding: Gusba na Gukwa</h1>
                                     </div>
                                     <div className="wpo-wedding-date">
                                         <div className="clock-grids">
                                             <h1 className='SaveDate'>Save the Date</h1>
                                             <h3 className ="weddingDate">07-06-2024</h3>
+                                            <h6>Please RSVP by 03-29-2024</h6>
                                         </div>
                                     </div>
-                                    {/* <div className="clearfix"></div> */}
                                 </div>
                             </div>
                         </div>

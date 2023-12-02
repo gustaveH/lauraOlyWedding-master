@@ -17,7 +17,7 @@ const StorySection = (props) => {
                 <h1>A Love Story</h1>
                 <p className='ourLoveStory'>Welcome to the celebration of love that transcends distance! Our love story began with the magic of connection, sparked by a beloved friend of my family and Olivier’s aunt. Who saw the potential for something extraordinary. Little did we know that this introduction would blossom into a deep bond, leading us down the path of love and commitment. As we prepare to embark on this journey together, we invite you to join us in celebrating our traditional wedding, a harmonious celebration of Rwandan traditions. Your presence will make our special day even more memorable as we unite our lives in a tapestry of cultures and shared love orchestrated by God.
                 </p>
-                <h4 className="fi flaticon-dove"> Olivier & Laura</h4>
+                <h4 className="fi flaticon-tilde"> Oli & Uza</h4>
             </div>
         </section>
     )
