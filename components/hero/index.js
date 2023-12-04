@@ -14,7 +14,7 @@ const Hero = (props) => {
                             <div className="col-xl-8 col-lg-6 col-12">
                                 <div className="wpo-static-hero-inner">
                                     <div data-swiper-parallax="300" className="slide-title">
-                                        <h2>Olivier <span>&</span> Laura</h2>
+                                        <h2>Laura <span>&</span> Olivier</h2>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
                                         <h1 className='Gusaba'> The Parents of Laura Uzamukunda & Olivier Nsengiyumva would love your presence at our Traditional Rwandan Ceremony: Gusba & Gukwa.</h1>
