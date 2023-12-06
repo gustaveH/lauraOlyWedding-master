@@ -545,6 +545,8 @@
 		padding-top: 20px;
 	}
 	.RSVPby{
+			text-decoration: underline;
+			text-decoration-color: $theme-primary-color-s2;
 			color:$body-bg-color;
 			padding-top: 25px;
 		}
