@@ -28,6 +28,7 @@ const RSVP = (props) => {
                                     id="name"
                                     type="text"
                                     name="name"
+                                    required=""
                                     className="form-control"
                                     placeholder="Your Name" />
                                 <ValidationError prefix="Name" field="name" errors={state.errors} />
@@ -38,6 +39,7 @@ const RSVP = (props) => {
                                     type="text"
                                     name="email"
                                     className="form-control"
+                                    required=""
                                     placeholder="Your Email" />
                                 <ValidationError prefix="Email" field="email" errors={state.errors} />
                             </div>
