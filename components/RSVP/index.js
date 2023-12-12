@@ -28,7 +28,7 @@ const RSVP = (props) => {
                                     id="name"
                                     type="text"
                                     name="name"
-                                    required=""
+                                    required
                                     className="form-control"
                                     placeholder="Your Name" />
                                 <ValidationError prefix="Name" field="name" errors={state.errors} />
@@ -39,13 +39,13 @@ const RSVP = (props) => {
                                     type="text"
                                     name="email"
                                     className="form-control"
-                                    required=""
+                                    required
                                     placeholder="Your Email" />
                                 <ValidationError prefix="Email" field="email" errors={state.errors} />
                             </div>
                             <div className="form-field">
                                 <p>Will you be attending?</p>
-                                <select className="form-control" name="attending" id="attending" required="">
+                                <select className="form-control" name="attending" id="attending" required>
                                     <option value="" selected="" disabled="">Select</option>
                                     <option value="Yes">Yes</option>
                                     <option value="No">No</option>
@@ -53,7 +53,7 @@ const RSVP = (props) => {
                             </div>
                             <div className="form-field">
                                 <p>Number of people attending.</p>
-                                <select className="form-control" name="People Attenting" id="plus" required="">
+                                <select className="form-control" name="People Attenting" id="plus" required>
                                     <option value="0" selected="">0</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
